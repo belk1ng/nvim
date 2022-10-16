@@ -14,6 +14,13 @@ keymap.set("i", "jk", "<ESC>", { noremap = true })
 -- Hide search results
 keymap.set("n", "<leader>h", ":noh<CR>", { noremap = true })
 
+-- Moving line
+keymap.set("n", "<S-Down>", ":move +1<CR>")
+keymap.set("n", "<S-Up>", ":move -2<CR>")
+keymap.set("i", "<S-Down>", ":move +1<CR>")
+keymap.set("i", "<S-Up>", ":move -2<CR>")
+
+
 -- Moving in insert mode
 keymap.set("i", "<C-j>", "<Down>", { noremap = true })
 keymap.set("i", "<C-k>", "<Up>", { noremap = true })
