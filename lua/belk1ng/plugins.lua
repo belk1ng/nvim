@@ -12,7 +12,7 @@ packer.startup(function(use)
   use 'nvim-lua/plenary.nvim'
   use 'L3MON4D3/LuaSnip'
   use "terrortylor/nvim-comment"
-  -- use 'norcalli/nvim-colorizer.lua'
+  use 'norcalli/nvim-colorizer.lua'
   use 'drewtempelmeyer/palenight.vim'
   use 'windwp/nvim-ts-autotag'
 
