@@ -2,10 +2,11 @@ vim.cmd("autocmd!")
 
 local set = vim.opt
 
-vim.cmd "colorscheme palenight"
+vim.cmd [[colorscheme palenight]]
 vim.cmd [[set termguicolors]]
 vim.cmd [[set noswapfile]]
 vim.cmd [[set nospell]]
+vim.cmd [[set t_Co=256]]
 
 vim.scriptencoding = 'utf-8'
 vim.wo.number = true
