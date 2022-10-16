@@ -1,11 +1,11 @@
-local api = vim.api
-
 require('git-conflict').setup({
     highlights = {
     incoming = "DiffText",
     current = "DiffAdd",
   }
 })
+
+vim.keymap.set("n", "<leader>sc", ":GitConflictListQf<CR>", { noremap = true })
 
 -- Current
 vim.cmd[[hi GitConflictCurrent guibg=#195d70]]
