@@ -15,6 +15,7 @@ packer.startup(function(use)
   use 'norcalli/nvim-colorizer.lua'
   use 'drewtempelmeyer/palenight.vim'
   use 'windwp/nvim-ts-autotag'
+  use 'windwp/nvim-autopairs'
 
   -- LSP 
   use 'onsails/lspkind-nvim'
