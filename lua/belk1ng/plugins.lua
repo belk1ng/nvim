@@ -17,6 +17,7 @@ packer.startup(function(use)
   use 'windwp/nvim-ts-autotag'
   use 'windwp/nvim-autopairs'
   use 'xiyaowong/nvim-transparent'
+  use 'mattn/emmet-vim'
 
   -- LSP 
   use 'onsails/lspkind-nvim'
