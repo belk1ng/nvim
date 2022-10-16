@@ -5,8 +5,8 @@ local set = vim.opt
 vim.scriptencoding = 'utf-8'
 vim.wo.number = true
 
-set.termguicolors = true
 vim.cmd "colorscheme palenight"
+vim.cmd [[set termguicolors]]
 
 set.encoding = 'utf-8'
 set.fileencoding = 'utf-8'

@@ -140,11 +140,6 @@ _G.packer_plugins = {
     path = "/Users/belk1ng/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
-  ["nvim-colorizer.lua"] = {
-    loaded = true,
-    path = "/Users/belk1ng/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
-    url = "https://github.com/norcalli/nvim-colorizer.lua"
-  },
   ["nvim-comment"] = {
     loaded = true,
     path = "/Users/belk1ng/.local/share/nvim/site/pack/packer/start/nvim-comment",

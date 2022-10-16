@@ -1,5 +1,6 @@
 local g = vim.g
 local keymap = vim.keymap
+local api = vim.api
 
 -- Change leader key
 g.mapleader = " "
@@ -21,3 +22,10 @@ keymap.set("i", "<C-l>", "<Right>", { noremap = true })
 
 -- Save
 keymap.set("n", "<C-s>", ":w<CR>", { noremap = true })
+
+api.nvim_set_keymap(
+  "n",
+  "<space>fb",
+  ":Telescope file_browser<CR>",
+  { noremap = true }
+)
