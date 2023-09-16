@@ -1,7 +1,6 @@
 vim.cmd("autocmd!")
-
-local set = vim.opt
-
+vim.cmd("highlight Search guibg=#087e8b")
+vim.cmd("autocmd ColorScheme * highlight Search guibg=#087e8b")
 vim.cmd([[colorscheme palenightfall]])
 vim.cmd([[set termguicolors]])
 vim.cmd([[set noswapfile]])
@@ -10,6 +9,7 @@ vim.cmd([[set t_Co=256]])
 vim.scriptencoding = "utf-8"
 vim.wo.number = true
 
+local set = vim.opt
 set.updatetime = 100
 set.encoding = "utf-8"
 set.title = true
